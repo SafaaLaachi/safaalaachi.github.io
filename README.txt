@@ -1,21 +1,16 @@
-SAFAA LAACHI — nouvelle version du site
+SAFAA LAACHI — SITE V3
 
-Cette version reprend la direction choisie :
-- accueil photographique, calme et lumineux ;
-- bandeau supérieur : « PSYCHANALYSE · LITTÉRATURE · CLINIQUE · PENSÉES CONTEMPORAINES » ;
-- « SAFAA LAACHI » et « penser ce qui nous traverse » dans le hero ;
-- pages/sections très claires (ivoire/blanc cassé) pour contraster avec les photographies ;
-- aucune grande section noire ;
-- navigation simple et peu chargée ;
-- images conservées dans /assets pour pouvoir les remplacer facilement.
+Version éditoriale avec un usage plus respirant des images.
 
-À remplacer plus tard :
-1. assets/portrait-placeholder.svg par ton vrai portrait ;
-2. votre@email.com dans index.html par ton adresse ;
-3. les textes provisoires par tes textes définitifs ;
-4. les « Audio à ajouter » par tes vrais fichiers audio.
+- 1 grande image d'ouverture
+- images intégrées dans les sections Accueil, Textes et Lectures
+- 1 interlude visuel de 4 images entre Textes et Lectures
+- les autres images restent disponibles dans assets/ pour de futurs textes
+- section À propos prête à recevoir le portrait définitif
 
 Déploiement GitHub Pages :
-1. Remplace les fichiers de ton dépôt safaalaachi.github.io par ceux de ce dossier.
-2. Garde la structure /assets.
-3. Attends 1 à 2 minutes puis recharge le site avec Ctrl+F5.
+1. Ouvrir le dépôt safaalaachi.github.io
+2. Add file → Upload files
+3. Envoyer le contenu de ce dossier en conservant le dossier assets
+4. Commit changes
+5. Attendre quelques instants puis actualiser le site avec Ctrl+F5
