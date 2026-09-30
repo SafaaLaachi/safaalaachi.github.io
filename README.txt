@@ -1,17 +1,21 @@
-SITE SAFAA LAACHI
-=================
+SAFAA LAACHI — nouvelle version du site
 
-Structure:
-- index.html
-- style.css
-- script.js
-- assets/
+Cette version reprend la direction choisie :
+- accueil photographique, calme et lumineux ;
+- bandeau supérieur : « PSYCHANALYSE · LITTÉRATURE · CLINIQUE · PENSÉES CONTEMPORAINES » ;
+- « SAFAA LAACHI » et « penser ce qui nous traverse » dans le hero ;
+- pages/sections très claires (ivoire/blanc cassé) pour contraster avec les photographies ;
+- aucune grande section noire ;
+- navigation simple et peu chargée ;
+- images conservées dans /assets pour pouvoir les remplacer facilement.
 
-A remplacer:
-1. assets/portrait-placeholder.svg -> ton vrai portrait (garde le nom portrait.jpg et modifie index.html si besoin)
-2. votre@email.com -> ton vrai email
-3. Les titres/textes provisoires des textes et lectures
-4. Les liens Instagram/LinkedIn
-5. Ajouter les fichiers audio et remplacer les blocs "Audio à ajouter" par des <audio controls src="..."></audio>.
+À remplacer plus tard :
+1. assets/portrait-placeholder.svg par ton vrai portrait ;
+2. votre@email.com dans index.html par ton adresse ;
+3. les textes provisoires par tes textes définitifs ;
+4. les « Audio à ajouter » par tes vrais fichiers audio.
 
-Le site est statique: il peut être hébergé gratuitement sur GitHub Pages ou Cloudflare Pages.
+Déploiement GitHub Pages :
+1. Remplace les fichiers de ton dépôt safaalaachi.github.io par ceux de ce dossier.
+2. Garde la structure /assets.
+3. Attends 1 à 2 minutes puis recharge le site avec Ctrl+F5.
