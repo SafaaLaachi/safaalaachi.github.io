@@ -100,8 +100,8 @@ img{display:block;max-width:100%}
 .about-copy h2{font-size:clamp(3rem,5vw,5.5rem);margin:20px 0 30px}
 .about-copy>p:not(.eyebrow){font-family:var(--serif);font-size:1.35rem;line-height:1.5}
 .small-note{color:var(--muted);font-size:1.05rem!important}
-.portrait{margin:0;background:var(--sand)}
-.portrait img{width:100%;aspect-ratio:4/5;object-fit:cover}
+.portrait{margin:0;background:transparent;max-width:300px;justify-self:end}
+.portrait img{display:block;width:100%;aspect-ratio:3/1;object-fit:cover}
 .contact-section{min-height:70vh;display:flex;align-items:center;background:var(--paper)}
 .contact-inner{width:100%;border-top:1px solid var(--sand);padding-top:45px}
 .contact-inner h2{font-size:clamp(3rem,6vw,6rem);margin:20px 0}
@@ -133,5 +133,6 @@ footer{
   .section-heading{margin-bottom:55px}
   .small-texts{grid-template-columns:1fr;gap:0;margin-top:70px}
   .small-texts article{border-bottom:1px solid var(--sand)}
+  .portrait{max-width:240px;justify-self:start}
   footer{gap:20px;flex-direction:column}
 }
